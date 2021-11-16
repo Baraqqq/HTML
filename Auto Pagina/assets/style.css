@@ -1,0 +1,91 @@
+
+.Tijger.hoofd , .Tijger.kop, .tijger.tekts, .Tijger.links, .Tijger.hallo, .tijger.tiger {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Tijger.hoofd {
+    font-size: 19px;
+    color: green;
+}
+.Tijger.kop{
+    font-size: 18px;
+    color: red;
+}
+.tijger.tekts{
+    color: blue;
+}
+.Tijger.links{
+    font-size: 20px;
+    color: darkblue;
+}
+.Tijger.hallo{
+    font-size: 20px;
+    color: green;
+}
+.tijger.tiger{
+    font-size: 50px;
+    color: green;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.foto-tijger{
+    background-color: rgb(192, 124, 23);
+    width: 55%;
+    float: left;
+
+}
+.Otherpost{
+    background-color: hotpink;
+    float: left;
+    width: 45%;
+}
+.othertext{
+    background-color: lightskyblue;
+}
+.author-box{
+    background-color: khaki;
+}
+.tiger.hoofd , .tiger.kop, .tiger.tekts, .tiger.links, .tiger.hallo, .tiger.tiger {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tiger.title {
+    font-size: 19px;
+    color: green;
+}
+h2.tiger.kop{
+
+    color: red;
+}
+p.tiger.lijst{
+
+    color: blue;
+}
+h6.tiger.links{
+    font-size: 20px;
+    color: darkblue;
+}
+h3.tiger.hallo{
+    font-size: 20px;
+    color: green;
+}
+h6.tiger.tiger{
+    font-size: 50px;
+    color: green;
+}
+.foto{
+    width: 300px;
+    border: 10px solid green;
+    padding: 125px;
+    margin: 10px;
+}
