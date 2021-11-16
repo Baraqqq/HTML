@@ -55,6 +55,14 @@
 .author-box{
     background-color: khaki;
 }
+.kleur1 {
+    border: 2px solid black;
+    padding: 25px;
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: 25% 50%;
+
+}
 .tiger.hoofd , .tiger.kop, .tiger.tekts, .tiger.links, .tiger.hallo, .tiger.tiger {
     font-family: 'Courier New', Courier, monospace;
 }
