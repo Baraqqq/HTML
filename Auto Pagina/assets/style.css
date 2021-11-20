@@ -55,14 +55,41 @@
 .author-box{
     background-color: khaki;
 }
-.kleur1 {
-    border: 2px solid black;
-    padding: 25px;
-    background-color: yellow;
-    background-repeat: no-repeat;
-    background-size: 25% 50%;
 
-}
+.box{ 
+	width:350px; 
+	height:250px; 
+    float: left;
+} 
+ 
+.yellow{ 
+	background: yellow; 
+} 
+.green{ 
+	background: green; 
+} 
+.grey{ 
+	background: grey; 
+} 
+.red{ 
+	background: red; 
+} 
+.white{ 
+	background: white; 
+} 
+.rose{
+	background: rgb(202, 131, 202)
+} 
+.blue{ 
+	background: blue; 
+} 
+.purple{ 
+	background: purple; 
+} 
+.orange{ 
+	background: orange; 
+} 
+
 .tiger.hoofd , .tiger.kop, .tiger.tekts, .tiger.links, .tiger.hallo, .tiger.tiger {
     font-family: 'Courier New', Courier, monospace;
 }

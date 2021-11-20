@@ -1,0 +1,17 @@
+1. Waar staat CSS voor? – Cascading Style Sheets
+2. Wat kan je met CSS doen? - Letterlijk de website ontwerpen dus een kleurtje geven.
+3. Wat is het verschil tussen HTML en CSS? -  HTML is het bouwen en CSS is het kleurtje geven
+4. Op hoeveel manieren kan je CSS toevoegen aan je HTML-code? - 3 manieren
+5. Geef van iedere manier een voorbeeld.  - CSS binnen in HTML Tag <p style="font-size: 120%">  <style> p{ font-size: 120% } </style> of in een apparte document  p { font-size: 120% }
+6. Welke manier is het beste? Waarom? de 3e van externe docu. Ziet er better en netter uit.
+7. Wat is een selector? - elementen die je wilt gebruiken op te zoeken
+8. Wat is een declaratieblok?
+9. Wat kan er beter bij onderstaande CSS? - Inplaats dat je 2 keer typt welke kleur ze moeten hebben. doe je h5, h6 { color: red; } Zo hoef je weinig te typen.
+10. Wat doet “tekst-align: justify”? Geef een voorbeeld middels een screenshot.
+11. Wat is een class? - Met Classes kun je 1 of meerdere elementen een stijl geven zoals een achtergrondkleur of lettertype eigenschappen
+12. Wat is een id? - Id is unieke id waarbij het meest gebruikt wordt om naar een stijl in een stylesheet te verwijzen.
+13. Wat is het verschil tussen een class en een id? Met class kun je achtergronden aanpassen en met ID verwijs je het naar die kleuren
+14. Wat is he verschil tussen margin en padding?
+15. Leg “CSS Inheritance” uit met behulp van de “box-model”.
+16. Wat is het verschil tussen een block-level-element en een inline-element?
+17. Noem drie toepassingen van een div-element.
