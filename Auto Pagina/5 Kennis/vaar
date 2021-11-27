@@ -1,0 +1,36 @@
+Wat is de eerste stap die je moet nemen als je een websiteproject start? Wat valt daar allemaal
+onder?
+2. Wat is performance?
+3. Wat is responsive web design?
+4. Wat zijn de drie ingrediënten van responsive web design?
+5. Wanneer gebruik je het “main”-element in HTML?
+
+6. Wat is een header-element en waarvoor gebruik je het? Wat is het voordeel van een header-
+element boven een div-element?
+
+7. Noem drie manieren om de kleur ‘zwart’ in code te schrijven. Geef van iedere manier een
+voorbeeld.
+8. Beschrijf de verschillen tussen een “block-element”, een “inline-block-element” en een
+“inline-element”. Geef een praktische toepassing met code.
+9. Wat is een comment?
+10. Hoe maak je een comment in CSS?
+11. Wat doet de float-property?
+12. Wat is een pseudo-class en noem een toepassing hiervan.
+13. Wat is een svg-extensie? Wat zijn voordelen ten opzichte van, bijvoorbeeld, een png-extensie?
+14. Wat is “padding”?
+15. Wat is “margin”?
+16. Wat is het verschil tussen “padding” en “margin”?
+17. Wat is de “margin” aan de onderkant in onderstaande CSS?
+
+18. Wat doet de “overflow”-property? Geef een voorbeeld van een toepassing.
+19. Wat zijn relatieve waarden in webdesign? Geef drie voorbeelden.
+20. Wat zijn absolute waarden webdesign? Geef drie voorbeelden.
+21. Wat is over het algemeen beter: het gebruik van relatieve of het gebruik van absolute
+waarden? Leg uit en geef een voorbeeld.
+22. Wat is een formulier in HTML? Welke tag hoort hierbij?
+23. In de video’s wordt iedere sectie met dezelfde volgorde gebouwd: eerst de HTML, dan de
+CSS. Waarom wordt dit gedaan? Kan het ook andersom? Wat is beter – en waarom?
+24. Wat is de functie van de footer?
+
+25. Welk html-element gebruik je voor de footer?
+<footer> </footer>

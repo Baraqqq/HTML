@@ -55,12 +55,31 @@
 .author-box{
     background-color: khaki;
 }
+.section{
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 10px;
+    line-height: 60px;
+}
+.title{
+    font-size: 80;
+    font-weight: 300;
+
+}
 
 .box{ 
 	width:350px; 
 	height:250px; 
     float: left;
 } 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
  
 .yellow{ 
 	background: yellow; 
