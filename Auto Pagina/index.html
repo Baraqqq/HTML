@@ -4,20 +4,55 @@
         <link rel="stylesheet" type="text/css" href="assets/style.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <style>
-            img{
-                clip-path: ellipse(130px 140px at 10% 20%);
-            }
+            .topnav {
+  background-color: white;
+  overflow: hidden;
+}
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.topnav a.lamborghini{
+    background-color: purple;
+    color: white;
+}
+.topnav a.audi{
+    background-color: red;
+    color: white;
+}
+.topnav a.contact{
+    background-color: blue;
+    color: white;
+}
         </style>
     </head>
     <body>
         <h1 style=" color:darkred; font-size: 100px;">Auto Pagina</h1>
       <div> 
         <navbar>
-            <li style=" color:darkred;"><a href="default.asp">Home</a></li>
-            <li><a href="news.asp">News</a></li>
-            <li><a href="contact.asp">Contact</a></li>
-            <li><a href="about.asp">About</a></li>
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a class="lamborghini" href="lamborghini.html">Lamborghini</a>
+                <a class="audi" href="audi.html">Audi</a>
+                <a class="contact" href="contact.html">Contact</a>
+              </div>
         </navbar>
     <div>
 
