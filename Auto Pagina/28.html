@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Grid</title>
+<meta name="description" content="Flexbox">
+<style>
+* {
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+html {
+font-size: 62.5%;
+}
+body {
+min-height: 100vh;
+font-size: 3rem;
+display: grid;
+place-content: center;
+}
+.grid-container {
+display: grid;
+grid-template-columns: 200px 100px 300px;
+grid-template-rows: 40px 20px 40px 20px repeat(2, 60px);
+gap: 10px;
+place-items: center;
+}
+.grid-container__item {
+    display: grid;
+    place-content: center;
+}
+.grid-container__item--a {
+grid-column: 1 / 2;
+grid-row: 1 / 3;
+background: pink;
+}
+.grid-container__item--b {
+background: red;
+grid-column: 2 / 3;
+grid-row: 2 / 5;
+}
+.grid-container__item--e {
+grid-column: 3 / 4;
+grid-row: 4 / 6;
+background: green;
+}
+.grid-container__item--c, .grid-container__item--d, .grid-container__item--f{
+    grid-row: 6/7;
+    background: blueviolet;
+}
+.grid-container__item--c{
+    background: lightblue;
+}
+.grid-container__item--d{
+    background: yellow;
+}
+.grid-container__item--h{
+    background: pink;
+    grid-column: 2/4;
+    grid-row: 7/8;
+}
+.grid-container__item--g{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background: blue;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+<div class="grid-container__item grid-container__item--a">0</div>
+<div class="grid-container__item grid-container__item--b">1</div>
+<div class="grid-container__item grid-container__item--c">2</div>
+<div class="grid-container__item grid-container__item--d">3</div>
+<div class="grid-container__item grid-container__item--e">4</div>
+<div class="grid-container__item grid-container__item--f">5</div>
+<div class="grid-container__item grid-container__item--g">6</div>
+<div class="grid-container__item grid-container__item--h">7</div>
+</div>
+</body>
+</html>
