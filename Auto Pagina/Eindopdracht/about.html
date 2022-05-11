@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - Kingdom of Morocco</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="container-item">
+            <div class="navbar">
+                <a href="index.html">
+                    <img src="assets/logo.png" class="logo">
+                    </a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="kingdom.html">Kingdom</a></li>
+                    <li><a href="history.html">History</a></li>
+
+                </ul>
+            </div>
+        </div>
+<section>
+    <div class="item">
+        <img src="assets/chefchaouen.jpg" alt"">
+        <div class="caption">
+            <h1>"The Blue City" oftewel Chefchaouen</h1>
+            <p>Chefchaouen of Chaouen is een stad in noord Marokko en is de hoofdplaats van de provincie Chefchaouen. De plaats is een toeristische trekpleister en bekend door haar indigoblauw geschilderde huizen.</p>
+        </div>
+    </div>
+    <div class="item">
+        <img src="assets/dessert.jpg" alt"">
+        <div class="caption">
+            <h1>"The Hollywood of Morocco" Ourzazate</h1>
+            <p>De stad staat bekend om het mooie aardewerk en de prachtige tapijten. Verder is de stad cultureel heel rijk. Daarnaast noemen ze Ourzazate de Hollywood of Morocco omdat hier grote bekende films zijn opgenomen zoals Gladiator ect. </p>
+        </div>
+    </div>
+    <div class="item">
+        <img src="assets/mosque.jpg" alt"">
+        <div class="caption">
+            <h1>Hassan II Grand Mosque</h1>
+            <p> De Hassan II-moskee is een moskee in Casablanca, Marokko. Het is de op één na grootste functionerende moskee in Afrika en de 7e grootste ter wereld.</p>
+        </div>
+    </div>
+    <div class="item">
+        <img src="assets/camping.jpg" alt"">
+        <div class="caption">
+            <h1>Sahara </h1>
+            <p>De Westelijke Sahara was vroeger een Spaanse kolonie die bekend staat als de Spaanse Sahara . Tegen de jaren zeventig kreeg Spanje te maken met toenemende druk van Marokko om het grondgebied af te staan, een massademonstratie gecoördineerd door de Marokkaanse regering die op 6 november 1975 werd gelanceerd.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+<footer>
+    <div class="footer-content">
+        <h3>Kingdom Of Morocco</h3>
+        <p>De oorspronkelijke bevolking van Marokko werd gevormd door de Berbers. <a href="kingdom.html">Lees hier meer.</a></p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2022 Kingdom Of Morocco. Created by <p2>Ilias el Bachiri</p2></p>
+    </div>
+</footer>
+
+</html>
+
+<script>
+    const items = document.querySelectorAll('.item');
+    items.forEach(item=>{
+        item.addEventListener('click',()=>{
+            items.forEach(item=> item.classList.remove('show'))
+            item.classList.add('show')
+        })
+    })
+</script>
